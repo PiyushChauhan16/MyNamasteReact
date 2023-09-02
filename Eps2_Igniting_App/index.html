@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "./index.css" rel="stylesheet" />
+
+    <title>Namaste React</title>
+    
+</head>
+<body>
+    <h1>hello top of root</h1>
+    <div id="root">
+        <h1> hi peeps</h1> <!--replaced by root.render ()-->
+    </div> 
+    <h1>hello below root</h1>
+
+    <!-- <script>
+        const heading = document.createElement ("h1");
+        heading.innerHTML = "Hello World from Javascript!";
+
+        document.querySelector (".root").appendChild (heading)
+    </script> -->
+<!-- 
+    <script 
+    crossorigin 
+    src="https://unpkg.com/react@18/umd/react.development.js">
+</script>
+
+    <script 
+    crossorigin 
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+</script> -->
+
+<script type = "module" src = "./App.js"></script>
+</body>
+</html>
+
+
+
+<!-- "Cross-origin" refers to interactions or 
+requests that occur between different origins
+ on the web. An origin is defined by a combination of the 
+ following components:
+
+Scheme: This is the protocol or method used, such as "http://" or "https://".
+
+Domain: This is the host or server where a web resource is located, like "example.com" or "api.example.com".
+
+Port: This is the port number used for communication, such as ":80" or ":443" (common HTTP and HTTPS ports).
+
+ crossorigin Attribute: The crossorigin attribute
+ is used to indicate that the loaded script should be 
+ fetched with CORS (Cross-Origin Resource Sharing) restrictions. 
+ CORS is a security feature implemented by web browsers that controls 
+ how web pages can make requests to different origins (domains) for 
+ resources like scripts, stylesheets, or data. -->
+
+<!-- 
+ DOM manipulation is a costly operation and react optimizzes it -->
