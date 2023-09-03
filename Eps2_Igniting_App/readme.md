@@ -12,7 +12,7 @@
 # dev vs normal dependency
 - there are 2 types of dependencies : dev and normal
 - dev dependencies are required in development environment
-- normal dependencies are required in deploy/production phase
+- production dependencies are required in production environment
 
 # Caret vs Tilde
 caret (^) vs tilde (~): with ^ in front of verion, it will upgrade the current version to new version with minor change (i.e. 2.8.1 => 2.8.2) whereas ~ upgrades the current version to new version with major changes (i.e. 2.8.4 => 3.1.0). It is always safe and recommended to use ^ over ~ as it could mess up the code if some major dependecy is depreciated.
