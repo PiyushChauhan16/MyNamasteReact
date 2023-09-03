@@ -14,8 +14,8 @@
 - dev dependencies are required in development environment
 - production dependencies are required in production environment
 
-# Caret vs Tilde
-caret (^) vs tilde (~): with ^ in front of verion, it will upgrade the current version to new version with minor change (i.e. 2.8.1 => 2.8.2) whereas ~ upgrades the current version to new version with major changes (i.e. 2.8.4 => 3.1.0). It is always safe and recommended to use ^ over ~ as it could mess up the code if some major dependecy is depreciated.
+# Caret vs Tilda
+caret (^) vs tilda (~): with ^ in front of verion, it will upgrade the current version to new version with minor change (i.e. 2.8.1 => 2.8.2) whereas ~ upgrades the current version to new version with major changes (i.e. 2.8.4 => 3.1.0). It is always safe and recommended to use ^ over ~ as it could mess up the code if some major dependecy is depreciated.
 
 # node_modules vs package.json vs package-lock.json
 - package-lock.json keep tracks of exact version of packages.
@@ -52,3 +52,18 @@ cdn is not a preferred way to get react in the project because it is costly oper
 - Differential bundling - support older browser
 - Good Error Handling
 - Tree-Shaking
+
+# what is .parcel-cache
+- It is a cache maintained by parcel for faster build of application. This ensures that files are not build each time the code is bundled.
+
+# What is tree-shaking
+- It refers to loading the necessary methods and dependency in the DOM and leaving the unnesseary information. Thus, giving faster performance and build of project
+
+# Why is '.gitignore'?
+- It refers to files which stores the information regarding the files which should not be tracked by git.
+
+# Why should I not modify package-lock.json?
+- Because it contains the exact version of dependency used by the project. It also helps the other developers to configure their environment with correct version of packages so that they run code locally.
+
+# What is browserlists?
+- Browser list a node package that helps the developer list down the browser on which the app must not fail in any circumstance. It helps parcel (or any other bundler) to bundle apps specifically for the browser.
