@@ -67,3 +67,6 @@ cdn is not a preferred way to get react in the project because it is costly oper
 
 # What is browserlists?
 - Browser list a node package that helps the developer list down the browser on which the app must not fail in any circumstance. It helps parcel (or any other bundler) to bundle apps specifically for the browser.
+
+# What is dist folder?
+- The bundler builds the app (i.e. minify, optimise, remove white spaces, comments or any other unnecessary information). The app build by the parcel is then hosted onto the server. These app build files are stored in the dist folder.
