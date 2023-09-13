@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: center;
+    background-color: black;
+    margin: 0px;
+    padding: 0px 15px 0px 15px;
+}
+
+.logo-img{
+    width: 100px;;
+    height: 100px;;
+    object-fit: cover;
+}
+
+.nav-item > ul { 
+    padding: 0px;
+ }
+ .nav-item > ul > li {
+    color: white;
+    float: left;
+    width: auto;
+    padding: 20px 10px 10px 10px;
+    list-style: outside none none;
+ }
+
+ .body{
+    margin-top: 20px;
+ }
+
+ .res-card{
+    border: 2px;
+    border-style: solid;
+    max-width: 200px;
+    padding: 10px;;
+    border-radius: 20px;
+    
+ }
+
+ .search {
+    margin: 10px 0px 10px 0px;
+ }
+
+ .rating {
+   color: white;
+   font-size: 15px;
+   margin-right: 5px;;
+   padding: 0px 4px 1px 4px;
+   background-color: green;
+   border-radius: 20px;
+ }
+
+ .main-res-container{
+   display: flex;
+   justify-content: middle;
+   flex-direction: column;
+   
+ }
+
+ .res-container{
+   display: flex;
+   flex-wrap: wrap;
+   
+   
+ }
+
+ .card{
+   cursor: pointer;
+   margin-left: 40px;
+   font-family: Montserrat;
+   font-weight: 500;
+   margin-bottom: 15px;;
+ }
+
+
+.search-bar{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 30px;
+}
+
+.search-bar-main-div{
+   display: inline-block;
+   position: relative;
+}
+ .search-input{
+   padding: 5px 45px 5px 10px;
+   padding-left: 30px;
+   padding-left: 10px;
+   width: 500px;
+   border-radius: 20px;
+ }
+
+ .search-btn{
+   position: absolute;
+   background: transparent;
+   border: 2px grey solid;
+   border: none;
+   padding-bottom: 5px;
+   right: 15px;
+   bottom: 2px;
+ }
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
